@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.heading{
+    list-style: none;
+    background-color: rgb(17, 2, 59)    ;
+    color: white;
+    align-items: center;
+    padding-left:619px ;
+}
+.tour{
+    font-size: 2rem;
+    padding-right: 10px;
+}
+.jha{
+    font-size: larger;
+    padding-left: 40px;
+}
+.navbar{
+    height: 70px;
+    background-color: rgb(137, 237, 175);
+    color: black;
+    display: flex;
+    width: 100%;
+}
+.nav-logo{
+    height: 70px;
+    width: 100px;
+    margin-right: 10px;
+}
+.logo{
+    background-image: url("Jharkhand_Rajakiya_Chihna.svg.png");
+    background-size: cover;
+    height: 60px;
+    width: 60%;
+    margin-left: 20px;
+}
+.border{
+    border-bottom: 1.5px solid transparent;
+    height: 10px;
+}
+.border:hover{
+    color:rgb(16, 124, 225);
+    border-bottom: 3px solid rgb(5, 10, 100);
+    height: 10px;
+}
+.features{
+    display: flex;
+    align-items: center;
+}
+.features a{
+    margin-left: 91px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+.content video{
+    width:100%;
+    height: auto;
+}
+.Explore-Jharkhand{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box1{
+    height: 70px;
+    width: 30%;
+    background-color: black;
+}
+.heading1{
+    color:rgb(1, 13, 57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading1 p{
+    font-size: 3rem;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 34px;
+    background-image: linear-gradient(to right, red, blue, green); 
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent; 
+
+}
+/*============Jharkhand Explore Image Portion=========*/
+.wrapper{
+    width: 100%;
+    height: 474px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.image1{
+    width: 25%;
+    height: 440px;
+    position: relative;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 3px;
+    background-image: url("The\ Mountains.jpg");
+    background-size: cover;
+}
+.image2{
+    width: 25%;
+    height: 440px;
+    position: relative;
+    margin-left: 20px;
+    border: 2px solid black;
+    background-image: url("Wildlife.jpg");
+    background-size: cover;
+}
+.image3{
+    width: 25%;
+    height: 440px;
+    position: relative;
+    margin-left: 20px;
+    border: 2px solid black;
+    background-image: url("Religious\ Tourism.jpg");
+    background-size: cover;
+}
+.image4{
+    width: 25%;
+    height: 440px;
+    position: relative;
+    margin-left: 20px;
+    border: 2px solid black;
+    background-image: url("Adventure.jpg");
+    background-size: cover;
+}
+.Detail1{
+    bottom: 0px;
+    font-size: 2rem;
+    color: Black;
+    padding-left: 56px;
+    background: rgba(78, 222, 229, 0.5);
+}
+.Detail2{
+    bottom: 0px;
+    font-size: 2rem;
+    color: Black;
+    padding-left: 103px;
+    background: rgba(23, 243, 177, 0.5);
+}
+.Detail3{
+    bottom: 0px;
+    font-size: 2rem;
+    color: Black;
+    padding-left: 56px;
+    background: rgba(216, 113, 35, 0.5);
+}
+.Detail4{
+    bottom: 0px;
+    font-size: 2rem;
+    color: Black;
+    padding-left: 105px;
+    background: rgba(181, 229, 7, 0.5);
+}
+.last{
+    margin-right: 20px;
+}
+.content1{
+    width: 75%;
+    height: 91%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(59, 244, 253, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    opacity: 0;
+    transition: 0.6s;
+    padding-left: 5px;
+    padding-top: 40px;
+    color: rgb(22, 4, 4);
+    font-size: 1.0rem;
+    font-family: cursive;
+}
+.content1:hover{
+    opacity: 1;
+}
+.content1 >*{
+    transform: translateX(25px);
+    transition: transform 0.6s;
+}
+.content1:hover >*{
+    transform: translateX(0px);
+}
+.content2{
+    width: 75%;
+    height: 91%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(23, 243, 177, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    opacity: 0;
+    transition: 0.6s;
+    padding-left: 5px;
+    padding-top: 40px;
+    color: black;
+    font-family: cursive;
+}
+.content2:hover{
+    opacity: 1;
+}
+.content2 >*{
+    transform: translateX(25px);
+    transition: transform 0.6s;
+}
+.content2:hover >*{
+    transform: translateX(0px);
+}
+.content3{
+    width: 75%;
+    height: 91%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(216, 113, 35, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    opacity: 0;
+    transition: 0.6s;
+    padding-left: 5px;
+    padding-top: 40px;
+    color: black;
+    font-size: 1rem;
+    font-family: cursive;
+}
+.content3:hover{
+    opacity: 1;
+}
+.content3 >*{
+    transform: translateX(25px);
+    transition: transform 0.6s;
+}
+.content3:hover >*{
+    transform: translateX(0px);
+}
+.content4{
+    width: 75%;
+    height: 91%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(181, 229, 7, 0.4);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    opacity: 0;
+    transition: 0.6s;
+    padding-left: 5px;
+    padding-top: 40px;
+    color: black;
+    font-size: 1rem;
+    font-family: cursive;
+}
+.content4:hover{
+    opacity: 1;
+}
+.content4 >*{
+    transform: translateX(25px);
+    transition: transform 0.6s;
+}
+.content4:hover >*{
+    transform: translateX(0px);
+}
+
+/*==========Destinations Portion Start========*/
+
+/*=============Heading Design============*/
+.heading2{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading2 p{
+    font-size: 3rem;
+    font-style: italic;
+    font-family: cursive;
+    background-image: linear-gradient(to right, red, blue, green); 
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent; 
+}
+.contentofDestinations1{
+    width: 100%;
+    height: 279px;
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.contentofDestinations2{
+    width: 100%;
+    height: 279px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1{
+    width: 30%;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px;
+    outline: 1px solid red;
+    box-shadow: 3px 3px 10px yellow;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+.card1-img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 6;
+    transition: transform .75s;
+}
+.card1:hover .card1-img{
+    transform: scale(1.15);
+}
+.card-title{
+    position: absolute;
+    left: 167px;
+    bottom: 108px;
+    font-size: 1.5rem;
+    color: white;
+}
+/*=============Card2=============*/
+.card2{
+    width: 30%;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px;
+    outline: 1px solid red;
+    box-shadow: 3px 3px 10px yellow;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+.card2-img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: transform .75s;
+}
+.card2:hover .card2-img{
+    transform: scale(1.15);
+}
+.card2-title{
+    position: absolute;
+    left: 135px;
+    top: 100px;
+    font-size: 2rem;
+    color: white;
+}
+/*=========Card-3========*/
+.card3{
+    width: 30%;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px;
+    outline: 1px solid red;
+    box-shadow: 3px 3px 10px yellow;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+.card3-img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: transform .75s;
+}
+.card3:hover .card3-img{
+    transform: scale(1.15);
+}
+.card3-title{
+    position: absolute;
+    left: 167px;
+    bottom: 108px;
+    font-size: 1.5rem;
+    color: white;
+}
+/*=========Card-4========*/
+
+.card4{
+    width: 30%;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px;
+    outline: 1px solid red;
+    box-shadow: 3px 3px 10px #0030ff;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+.card4-img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: transform .75s;
+}
+.card4:hover .card4-img{
+    transform: scale(1.15);
+}
+.card4-title{
+    position: absolute;
+    left: 167px;
+    bottom: 108px;
+    font-size: 1.5rem;
+    color: white;
+}
+/*=========Card-5========*/
+.card5{
+    width: 30%;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px;
+    outline: 1px solid red;
+    box-shadow: 3px 3px 10px #0030ff;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+.card5-img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: transform .75s;
+}
+.card5:hover .card5-img{
+    transform: scale(1.5);
+}
+.card5-title{
+    position: absolute;
+    left: 167px;
+    bottom: 108px;
+    font-size: 1.5rem;
+    color: white;
+}
+/*=========Card-6========*/
+.card6{
+    width: 30%;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 20px;
+    outline: 1px solid red;
+    box-shadow: 3px 3px 10px #0030ff;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+}
+.card6-img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.7;
+    transition: transform .75s;
+}
+.card6:hover .card6-img{
+    transform: scale(1.5);
+}
+.card6-title{
+    position: absolute;
+    left: 167px;
+    bottom: 108px;
+    font-size: 1.5rem;
+    color: white;
+}
+/*===========heading3=========*/
+.heading3{
+    color:rgb(1, 13, 57);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading3 p{
+    font-size: 3rem;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 34px;
+    background-image: linear-gradient(to right, red, blue, green); 
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent; 
+}
