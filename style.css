@@ -48,16 +48,14 @@
 }
 
 .border {
-    border-bottom: 1.5px solid transparent;
+    /* border-bottom: 1.5px solid transparent; */
     height: 10px;
 }
 
 .border:hover {
-    color: rgb(10, 37, 61);
+    color: rgb(194, 106, 24);
     height: 5px;
-    background-color: palevioletred;
-    border-radius: 15px;
-    padding: 5px;
+    
 }
 
 .features {
